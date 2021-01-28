@@ -38,6 +38,7 @@ export const TableHeadContainer = styled.div`
 
 export const TableItemContainer = styled.div`
     box-shadow: inset 0px -1px 0px rgba(183, 183, 183, 0.25);
+    background: ${colors.white};
     height: 60px;
     display: flex;
     align-items: center;

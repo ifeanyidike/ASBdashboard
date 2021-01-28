@@ -93,6 +93,6 @@ export const Avatar = styled.div`
 export const Bell = styled.div``
 
 export const AngleDown = styled.div`
-    margin-left: 3px;
+    margin-left: 5px;
     cursor: pointer;
 `

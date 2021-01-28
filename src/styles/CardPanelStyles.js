@@ -9,7 +9,6 @@ export const CardPanelContainer = styled.div`
 `
 
 export const CardPaneContainer = styled.div`
-    
     height: 129px;
     box-shadow: 0px 4px 30px rgba(192, 192, 192, 0.25);
     border-radius: 6px;
@@ -17,6 +16,7 @@ export const CardPaneContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     padding: 0 20px;
+    cursor: pointer;
 
     .topcontent{
         display: flex;

@@ -1,11 +1,11 @@
 import { createGlobalStyle } from 'styled-components'
-import { fontTheme } from "./definitions"
 
 export const GlobalStyle = createGlobalStyle`
     
-
-    body{
-        font-family: ${fontTheme.black};
-    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }   
 
 `

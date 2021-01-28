@@ -9,8 +9,8 @@ import { BodyDisplay } from './styles/BodyStyles';
 
 function App() {
   return (
-    <div className="app">
-      {/* <GlobalStyle /> */}
+    <div>
+      <GlobalStyle />
       <Header />
       <BreadCrumb />
       <CardPanel />
